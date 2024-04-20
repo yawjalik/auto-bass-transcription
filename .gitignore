@@ -1,0 +1,10 @@
+.venv*
+.idea/
+__pycache__
+tmp/
+audio*/
+in/
+out/
+sf/
+*.zip
+node_modules/
