@@ -1,0 +1,1 @@
+{ a1 a8 a8 b2 r8 cis2 f,1 a,4 b,1 gis4 a2 f,8 fis,4 r2 f,2 }
