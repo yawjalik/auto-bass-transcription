@@ -37,8 +37,8 @@ def healthcheck():
 
 @app.get('/samples')
 def get_samples():
-    sample_audio = os.listdir(sample_audio_dir)
-    sample_label = os.listdir(sample_label_dir)
+    sample_audio = sorted(list(filter(lambda x: x.endswith('.wav'), os.listdir(sample_audio_dir))))
+    sample_label = sorted(list(filter(lambda x: x.endswith('.txt'), os.listdir(sample_label_dir))))
 
     samples = []
     for audio, label in zip(sample_audio, sample_label):
