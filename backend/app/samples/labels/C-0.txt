@@ -1,0 +1,1 @@
+{ g16 g,4 g,4 r8 e,16 a8 c2 dis2 a,4 gis1 a,8 a,8 b4 fis,8 g,1 }
