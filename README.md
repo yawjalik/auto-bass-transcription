@@ -14,3 +14,5 @@ A FastAPI app to host the trained models. The models and sample audio are provid
 ## Client
 
 A simple Next.js web app to interact with the backend.
+
+![app](https://github.com/yawjalik/auto-bass-transcription/assets/70761798/4e27584a-58a0-4112-852a-1e412a6f5e09)
